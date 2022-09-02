@@ -1,0 +1,82 @@
+body {
+    background-color: rgb(216, 176, 126);
+    background-image: url(counter_back.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    scroll-behavior: inherit;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid white;
+    border-radius: 4px;
+    margin: 7rem 19rem 5rem 19rem;
+    flex-wrap: wrap;
+}
+
+.inside-container {
+    border: 2px solid black;
+    padding: 0px;
+    margin: 0rem;
+}
+
+.btns-container {
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 3rem;
+    flex-wrap: wrap;
+    padding-bottom: 3rem;
+}
+
+.reset {
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 3em;
+}
+
+#reset
+/* reset button*/
+    {
+      background-color: skyblue;
+    color: rgb(53, 50, 50);
+    border-radius: 2px;
+    border: 2px solid black;
+    cursor: pointer;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 0.5em;
+}
+#reset:hover
+{
+    background-color: rgb(206, 229, 238);
+    color: black;
+}
+
+.btns {
+    margin: 0rem 2.5rem 0rem 2.5rem;
+    color: rgb(53, 50, 50);
+    border-radius: 2px;
+    border: 2px solid black;
+    background-color: skyblue;
+    cursor: pointer;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 0.5em;
+}
+.btns:hover
+{
+   background-color: rgb(206, 229, 238);
+   color: black;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-wrap: wrap;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
